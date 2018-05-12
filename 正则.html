@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <TITLE>正则表达式</TITLE>
+        <script src="vue.js"></script>
+        <script>
+            window.onload=function(){
+                vue = new Vue({
+                    el: "#ceshi",
+                    data:{
+                        RES:"LIXIAOHU",
+                        inputval:''
+                    },
+                    method:{
+                        mat(){
+                            var reg = new RegExp(/^[1-9]{1}\d*(.\d{1,2})?$|^0.\d{1,2}$/);
+                            if(reg.test(this.inputval)){
+                                this.RES="duile"
+                            }else{
+                                this.RES="cuole"
+                            }
+                        }
+
+                    }
+                })
+
+            }
+        </script>
+        
+    </head>
+    <body>
+        <div id="ceshi">
+            <input type="text" v-model="RES"><br>
+            <button @click="mat">测试</button><br>
+            result:<span>{{RES}}</span>
+        </div>
+    </body>
+
+</html>
