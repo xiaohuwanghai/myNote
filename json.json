@@ -1,0 +1,59 @@
+"[{\"exceededAmt\":\"\",\"billOrderId\":\"25589410686828605\"},{\"exceededAmt\":\"\",\"billOrderId\":\"25589410686828605\"}]"
+"[{\"exceededAmt\":\"\",\"billOrderId\":\"25589410686828605\"},{\"exceededAmt\":\"\",\"billOrderId\":\"25589410686828605\"}]"
+ [{\"exceededAmt\":\"\",\"billOrderId\":\"25589410686828605\"},{\"exceededAmt\":\"\",\"billOrderId\":\"25589410686828605\"}]
+ [{\"exceededAmt\":\"\",\"billOrderId\":\"25589410686828605\"},{\"exceededAmt\":\"\",\"billOrderId\":\"25589410686828605\"}]
+ 
+ "\"[{\\\"exceededAmt\\\":\\\"\\\",\\\"billOrderId\\\":\\\"25589410686828605\\\"},{\\\"exceededAmt\\\":\\\"\\\",\\\"billOrderId\\\":\\\"25589410686828605\\\"}]\""
+
+ "[{\"exceededAmt\":\"\",\"billOrderId\":\"25589410686828605\"},{\"exceededAmt\":\"\",\"billOrderId\":\"25589410686828605\"}]"
+
+
+
+
+
+ /**
+ * 跳转到特定页面(da.createwindow打开方式）
+ * @param v pageIndex:为0到count-1的数字，超过或者其他将返回错误，成功就会跳转
+ *          refreshPage:这个参数代表是否刷新，默认不刷新，设置为true时则进入界面时会刷新
+ */
+da.goBackToSpecifiedPage = function (v) {
+    if (this.canTrans())
+        djInternal.callHandler('goBackToSpecifiedPage', {
+                'pageIndex': v.pageIndex,
+                'refreshPage': v.refreshPage
+		'isClose': v.isClose
+            },
+            function (callback) {
+                switch (callback.code) {
+                    case 'success':
+                        v.success(callback.res);
+                        break;
+                    case 'fail':
+                        v.fail && v.fail(callback.res);
+                        break;
+                    default:
+                        v.fail && v.fail(callback.res);
+                        break;
+                }
+            });
+};
+/**
+ * 获取当前控制器的栈的数量，默认为0，代表当前为根控制器(da.createwindow打开方式）
+ */
+da.getSpecifiedPageCount = function (v) {
+    if (this.canTrans())
+        djInternal.callHandler('getSpecifiedPageCount', {},
+            function (callback) {
+                switch (callback.code) {
+                    case 'success':
+                        v.success(callback.res);
+                        break;
+                    case 'fail':
+                        v.fail && v.fail(callback.res);
+                        break;
+                    default:
+                        v.fail && v.fail(callback.res);
+                        break;
+                }
+            });
+};
