@@ -1,4 +1,4 @@
-# -- 传祺初始化
+-- 传祺初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 17, 0, "传祺", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 17, "传祺", "传祺GA3S PHEV", "普通型", 5, "三厢", 1),
@@ -19,7 +19,7 @@ VALUES (uuid_short(), 17, 0, "传祺", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 16, 17, "传祺", "传祺GS7", "舒适型", 5, "SUV", 1),
 (uuid_short(), 17, 17, "传祺", "传祺GS8", "舒适型", 5, "SUV", 1);
 
-# -- 大通初始化
+ -- 大通初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 18, 0, "大通", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 18, "大通", "D90", "舒适型", 5, "SUV", 1),
@@ -27,7 +27,7 @@ VALUES (uuid_short(), 18, 0, "大通", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 3, 18, "大通", "大通EG10 BEV", "舒适型", 7, "MPV", 1),
 (uuid_short(), 4, 18, "大通", "大通G10", "舒适型", 7, "MPV", 1);
 
-# -- 大众初始化
+ -- 大众初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 19, 0, "大众", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 19, "大众", "宝来", "普通型", 5, "三厢", 1),
@@ -54,12 +54,12 @@ VALUES (uuid_short(), 19, 0, "大众", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 22, 19, "大众", "途观L", "舒适型", 5, "SUV", 1),
 (uuid_short(), 23, 19, "大众", "蔚领", "普通型", 5, "两厢", 1);
 
-# -- 道达初始化
+ -- 道达初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 20, 0, "道达", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 20, "道达", "道达 V8", "舒适型", 7, "MPV", 1);
 
-# -- 谛艾仕初始化
+ -- 谛艾仕初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 21, 0, "谛艾仕", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 21, "谛艾仕", "长雪DS 4S", "普通型", 5, "两厢", 1),
@@ -67,12 +67,12 @@ VALUES (uuid_short(), 21, 0, "谛艾仕", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 3, 21, "谛艾仕", "长雪DS 5LS", "舒适型", 5, "三厢", 1),
 (uuid_short(), 4, 21, "谛艾仕", "长雪DS6", "舒适型", 5, "SUV", 1);
 
-# -- 电咖初始化
+ -- 电咖初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 22, 0, "电咖", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 22, "电咖", "电咖EV10", "基础型", 5, "两厢", 1);
 
-# -- 东南初始化
+ -- 东南初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 23, 0, "东南", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 23, "东南", "V3菱悦", "基础型", 5, "三厢", 1),
@@ -82,13 +82,13 @@ VALUES (uuid_short(), 23, 0, "东南", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 5, 23, "东南", "东南DX3", "基础型", 5, "SUV", 1),
 (uuid_short(), 6, 23, "东南", "东南DX7", "普通型", 5, "SUV", 1);
 
-# -- 菲亚特初始化
+ -- 菲亚特初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 24, 0, "菲亚特", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 24, "菲亚特", "菲翔", "普通型", 5, "三厢", 1),
 (uuid_short(), 2, 24, "菲亚特", "致悦", "普通型", 5, "两厢", 1);
 
-# -- 丰田初始化
+ -- 丰田初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 25, 0, "丰田", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 25, "丰田", "埃尔法", "豪华型", 7, "MPV", 1),
@@ -109,14 +109,14 @@ VALUES (uuid_short(), 25, 0, "丰田", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 16, 25, "丰田", "致享", "基础型", 5, "三厢", 1),
 (uuid_short(), 17, 25, "丰田", "致炫", "基础型", 5, "两厢", 1);
 
-# -- 风度初始化
+ -- 风度初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 26, 0, "风度", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 26, "风度", "风度MX5", "舒适型", 5, "SUV", 1),
 (uuid_short(), 2, 26, "风度", "风度MX6", "普通型", 5, "SUV", 1),
 (uuid_short(), 3, 26, "风度", "帅客", "普通型", 7, "MPV", 1);
 
-# -- 风光初始化
+ -- 风光初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 27, 0, "风光", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 27, "风光", "风光330", "基础型", 7, "MPV", 1),
@@ -124,7 +124,7 @@ VALUES (uuid_short(), 27, 0, "风光", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 3, 27, "风光", "风光370", "基础型", 7, "MPV", 1),
 (uuid_short(), 4, 27, "风光", "风光580", "普通型", 5, "SUV", 1);
 
-# -- 风行初始化
+ -- 风行初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 28, 0, "风行", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 28, "风行", "E70", "普通型", 5, "三厢", 1),
@@ -145,7 +145,7 @@ VALUES (uuid_short(), 28, 0, "风行", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 16, 28, "风行", "菱智V3", "普通型", 7, "MPV", 1),
 (uuid_short(), 17, 28, "风行", "御风S16", "舒适型", 5, "SUV", 1);
 
-# -- 风神初始化
+ -- 风神初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 29, 0, "风神", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 29, "风神", "风神A30", "普通型", 5, "三厢", 1),
@@ -159,7 +159,7 @@ VALUES (uuid_short(), 29, 0, "风神", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 9, 29, "风神", "风神L60", "普通型", 5, "三厢", 1),
 (uuid_short(), 10, 29, "风神", "风神S30", "普通型", 5, "三厢", 1);
 
-# -- 福特初始化
+ -- 福特初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 30, 0, "福特", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 30, "福特", "福克斯", "普通型", 5, "两厢", 1),
@@ -172,13 +172,13 @@ VALUES (uuid_short(), 30, 0, "福特", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 8, 30, "福特", "翼搏", "普通型", 5, "SUV", 1),
 (uuid_short(), 9, 30, "福特", "翼虎", "普通型", 5, "SUV", 1);
 
-# -- 福田初始化
+ -- 福田初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 31, 0, "福田", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 31, "福田", "蒙派克", "舒适型", 7, "MPV", 1),
 (uuid_short(), 2, 31, "福田", "萨瓦纳", "舒适型", 5, "SUV", 1);
 
-# -- 伽途初始化
+ -- 伽途初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 32, 0, "伽途", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 32, "伽途", "伽途im6", "普通型", 7, "MPV", 1),
@@ -186,7 +186,7 @@ VALUES (uuid_short(), 32, 0, "伽途", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 3, 32, "伽途", "伽途ix5", "普通型", 7, "MPV", 1),
 (uuid_short(), 4, 32, "伽途", "伽途ix7", "普通型", 7, "MPV", 1);
 
-# -- 观致初始化
+ -- 观致初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 33, 0, "观致", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 33, "观致", "观致3", "普通型", 5, "两厢", 1),
@@ -195,17 +195,17 @@ VALUES (uuid_short(), 33, 0, "观致", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 4, 33, "观致", "观致3SUV", "普通型", 5, "SUV", 1),
 (uuid_short(), 5, 33, "观致", "观致5SUV", "普通型", 5, "SUV", 1);
 
-# -- 广汽初始化
+ -- 广汽初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 34, 0, "广汽", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 34, "广汽", "祺智 PHEV", "普通型", 5, "SUV", 1);
 
-# -- 国金初始化
+ -- 国金初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 35, 0, "国金", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 35, "国金", "GM3", "普通型", 7, "MPV", 1);
 
-# -- 哈弗初始化
+ -- 哈弗初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 36, 0, "哈弗", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 36, "哈弗", "哈弗H1", "基础型", 5, "SUV", 1),
@@ -217,7 +217,7 @@ VALUES (uuid_short(), 36, 0, "哈弗", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 7, 36, "哈弗", "哈弗H8", "舒适型", 5, "SUV", 1),
 (uuid_short(), 8, 36, "哈弗", "哈弗H9", "舒适型", 5, "SUV", 1);
 
-# -- 海马初始化
+ -- 海马初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 37, 0, "海马", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 37, "海马", "福美来", "普通型", 5, "三厢", 1),
@@ -231,7 +231,7 @@ VALUES (uuid_short(), 37, 0, "海马", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 9, 37, "海马", "海马骑士", "普通型", 5, "SUV", 1),
 (uuid_short(), 10, 37, "海马", "海马王子", "基础型", 5, "两厢", 1);
 
-# -- 汉腾初始化
+ -- 汉腾初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 38, 0, "汉腾", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 38, "汉腾", "汉腾X5", "普通型", 5, "SUV", 1),
@@ -239,23 +239,23 @@ VALUES (uuid_short(), 38, 0, "汉腾", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 3, 38, "汉腾", "汉腾X7 PHEV", "普通型", 5, "SUV", 1),
 (uuid_short(), 4, 38, "汉腾", "汉腾X7S", "普通型", 5, "SUV", 1);
 
-# -- 红旗初始化
+ -- 红旗初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 39, 0, "红旗", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 39, "红旗", "红旗H7", "豪华型", 5, "三厢", 1),
 (uuid_short(), 2, 39, "红旗", "红旗H7 PHEV", "豪华型", 5, "三厢", 1);
 
-# -- 华骐初始化
+ -- 华骐初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 40, 0, "华骐", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 40, "华骐", "华骐 300E", "普通型", 5, "三厢", 1);
 
-# -- 华颂初始化
+ -- 华颂初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 41, 0, "华颂", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 41, "华颂", "华颂7", "舒适型", 7, "MPV", 1);
 
-# -- 华泰初始化
+ -- 华泰初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 42, 0, "华泰", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 42, "华泰", "宝利格", "普通型", 5, "SUV", 1),
@@ -269,7 +269,7 @@ VALUES (uuid_short(), 42, 0, "华泰", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 9, 42, "华泰", "圣达菲7", "舒适型", 5, "SUV", 1),
 (uuid_short(), 10, 42, "华泰", "特拉卡", "舒适型", 5, "SUV", 1);
 
-# -- 幻速初始化
+ -- 幻速初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 43, 0, "幻速", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 43, "幻速", "幻速H2", "基础型", 7, "MPV", 1),
@@ -280,7 +280,7 @@ VALUES (uuid_short(), 43, 0, "幻速", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 6, 43, "幻速", "幻速S6", "普通型", 5, "SUV", 1),
 (uuid_short(), 7, 43, "幻速", "幻速S7", "舒适型", 5, "SUV", 1);
 
-# -- 吉利初始化
+ -- 吉利初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 44, 0, "吉利", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 44, "吉利", "博瑞GC9", "舒适型", 5, "三厢", 1),
@@ -307,14 +307,14 @@ VALUES (uuid_short(), 44, 0, "吉利", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 22, 44, "吉利", "知豆D3", "基础型", 5, "两厢", 1),
 (uuid_short(), 23, 44, "吉利", "自由舰", "基础型", 5, "三厢", 1);
 
-# -- 吉普初始化
+ -- 吉普初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 45, 0, "吉普", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 45, "吉普", "指南者", "舒适型", 5, "SUV", 1),
 (uuid_short(), 2, 45, "吉普", "自由光", "舒适型", 5, "SUV", 1),
 (uuid_short(), 3, 45, "吉普", "自由侠", "舒适型", 5, "SUV", 1);
 
-# -- 江淮初始化
+ -- 江淮初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 46, 0, "江淮", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 46, "江淮", "iEV7S", "普通型", 5, "SUV", 1),
@@ -334,14 +334,14 @@ VALUES (uuid_short(), 46, 0, "江淮", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 15, 46, "江淮", "瑞风S7", "舒适型", 5, "SUV", 1),
 (uuid_short(), 16, 46, "江淮", "瑞鹰", "普通型", 5, "SUV", 1);
 
-# -- 江铃初始化
+ -- 江铃初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 47, 0, "江铃", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 47, "江铃", "江铃E100 BEV", "基础型", 5, "两厢", 1),
 (uuid_short(), 2, 47, "江铃", "江铃E160 BEV", "基础型", 5, "两厢", 1),
 (uuid_short(), 3, 47, "江铃", "江铃E200 BEV", "基础型", 5, "两厢", 1);
 
-# -- 捷豹初始化
+ -- 捷豹初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 48, 0, "捷豹", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 48, "捷豹", "捷豹 XEL", "舒适型", 5, "三厢", 1),
@@ -350,24 +350,24 @@ VALUES (uuid_short(), 48, 0, "捷豹", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 4, 48, "捷豹", "捷豹XFL", "豪华型", 5, "三厢", 1),
 (uuid_short(), 5, 48, "捷豹", "捷豹XJ", "豪华型", 5, "三厢", 1);
 
-# -- 金杯初始化
+ -- 金杯初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 49, 0, "金杯", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 49, "金杯", "阁瑞斯", "舒适型", 7, "MPV", 1),
 (uuid_short(), 2, 49, "金杯", "金杯750", "基础型", 7, "MPV", 1),
 (uuid_short(), 3, 49, "金杯", "金杯F50", "舒适型", 7, "MPV", 1);
 
-# -- 君马初始化
+ -- 君马初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 50, 0, "君马", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 50, "君马", "君马 S70", "舒适型", 5, "SUV", 1);
 
-# -- 俊风初始化
+ -- 俊风初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 51, 0, "俊风", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 51, "俊风", "俊风ER30 BEV", "基础型", 5, "两厢", 1);
 
-# -- 骏派初始化
+ -- 骏派初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 52, 0, "骏派", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 52, "骏派", "骏派A70", "普通型", 5, "两厢", 1),
@@ -375,12 +375,12 @@ VALUES (uuid_short(), 52, 0, "骏派", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 3, 52, "骏派", "骏派A70E", "普通型", 5, "三厢", 1),
 (uuid_short(), 4, 52, "骏派", "骏派D60", "基础型", 5, "SUV", 1);
 
-# -- 卡威初始化
+ -- 卡威初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 53, 0, "卡威", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 53, "卡威", "路易斯", "普通型", 5, "SUV", 1);
 
-# -- 凯迪拉克初始化
+ -- 凯迪拉克初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 54, 0, "凯迪拉克", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 54, "凯迪拉克", "凯迪拉克ATS", "舒适型", 5, "三厢", 1),
@@ -392,7 +392,7 @@ VALUES (uuid_short(), 54, 0, "凯迪拉克", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 7, 54, "凯迪拉克", "凯迪拉克XTS", "豪华型", 5, "三厢", 1),
 (uuid_short(), 8, 54, "凯迪拉克", "凯迪拉克赛威", "豪华型", 5, "三厢", 1);
 
-# -- 凯翼初始化
+ -- 凯翼初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 55, 0, "凯翼", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 55, "凯翼", "凯翼C3", "基础型", 5, "三厢", 1),
@@ -400,7 +400,7 @@ VALUES (uuid_short(), 55, 0, "凯翼", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 3, 55, "凯翼", "凯翼E3", "基础型", 5, "三厢", 1),
 (uuid_short(), 4, 55, "凯翼", "凯翼X5", "普通型", 5, "SUV", 1);
 
-# -- 康迪初始化
+ -- 康迪初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 56, 0, "康迪", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 56, "康迪", "康迪K10 BEV", "基础型", 5, "两厢", 1),
@@ -408,12 +408,12 @@ VALUES (uuid_short(), 56, 0, "康迪", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 3, 56, "康迪", "康迪K12 BEV", "基础型", 5, "两厢", 1),
 (uuid_short(), 4, 56, "康迪", "康迪K17 BEV", "基础型", 5, "两厢", 1);
 
-# -- 克莱斯勒初始化
+ -- 克莱斯勒初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 57, 0, "克莱斯勒", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 57, "克莱斯勒", "克莱斯勒300C", "豪华型", 5, "三厢", 1);
 
-# -- 雷克萨斯初始化
+ -- 雷克萨斯初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 58, 0, "雷克萨斯", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 58, "雷克萨斯", "雷克萨斯CT", "豪华型", 5, "三厢", 1),
@@ -427,7 +427,7 @@ VALUES (uuid_short(), 58, 0, "雷克萨斯", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 9, 58, "雷克萨斯", "雷克萨斯RC", "豪华型", 5, "三厢", 1),
 (uuid_short(), 10, 58, "雷克萨斯", "雷克萨斯RX", "豪华型", 5, "SUV", 1);
 
-# -- 雷诺初始化
+ -- 雷诺初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 59, 0, "雷诺", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 59, "雷诺", "Espace", "舒适型", 7, "MPV", 1),
@@ -436,12 +436,12 @@ VALUES (uuid_short(), 59, 0, "雷诺", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 4, 59, "雷诺", "科雷嘉", "舒适型", 5, "SUV", 1),
 (uuid_short(), 5, 59, "雷诺", "梅甘娜", "豪华型", 5, "三厢", 1);
 
-# -- 理念初始化
+ -- 理念初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 60, 0, "理念", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 60, "理念", "理念S1", "基础型", 5, "三厢", 1);
 
-# -- 力帆初始化
+ -- 力帆初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 61, 0, "力帆", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 61, "力帆", "乐途", "基础型", 7, "MPV", 1),
@@ -457,7 +457,7 @@ VALUES (uuid_short(), 61, 0, "力帆", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 11, 61, "力帆", "迈威", "基础型", 5, "SUV", 1),
 (uuid_short(), 12, 61, "力帆", "轩朗", "普通型", 7, "MPV", 1);
 
-# -- 猎豹初始化
+ -- 猎豹初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 62, 0, "猎豹", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 62, "猎豹", "CS9 EV", "基础型", 5, "SUV", 1),
@@ -465,14 +465,14 @@ VALUES (uuid_short(), 62, 0, "猎豹", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 3, 62, "猎豹", "猎豹CS9", "基础型", 5, "SUV", 1),
 (uuid_short(), 4, 62, "猎豹", "猎豹Q6", "舒适型", 5, "SUV", 1);
 
-# -- 林肯初始化
+ -- 林肯初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 63, 0, "林肯", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 63, "林肯", "林肯MKC", "豪华型", 5, "SUV", 1),
 (uuid_short(), 2, 63, "林肯", "林肯MKX", "豪华型", 5, "SUV", 1),
 (uuid_short(), 3, 63, "林肯", "林肯MKZ", "豪华型", 5, "三厢", 1);
 
-# -- 铃木初始化
+ -- 铃木初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 64, 0, "铃木", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 64, "铃木", "北斗星", "基础型", 5, "两厢", 1),
@@ -486,12 +486,12 @@ VALUES (uuid_short(), 64, 0, "铃木", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 9, 64, "铃木", "雨燕", "基础型", 5, "两厢", 1),
 (uuid_short(), 10, 64, "铃木", "长安奥拓", "基础型", 5, "两厢", 1);
 
-# -- 领克初始化
+ -- 领克初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 65, 0, "领克", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 65, "领克", "领克01", "舒适型", 5, "SUV", 1);
 
-# -- 陆风初始化
+ -- 陆风初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 66, 0, "陆风", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 66, "陆风", "陆风 逍遥", "普通型", 5, "SUV", 1),
@@ -500,7 +500,7 @@ VALUES (uuid_short(), 66, 0, "陆风", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 4, 66, "陆风", "陆风X8", "普通型", 5, "SUV", 1),
 (uuid_short(), 5, 66, "陆风", "陆风风尚", "基础型", 7, "MPV", 1);
 
-# -- 路虎初始化
+ -- 路虎初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 67, 0, "路虎", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 67, "路虎", "发现神行", "豪华型", 5, "SUV", 1),
@@ -508,7 +508,7 @@ VALUES (uuid_short(), 67, 0, "路虎", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 3, 67, "路虎", "揽胜运动版", "豪华型", 5, "SUV", 1),
 (uuid_short(), 4, 67, "路虎", "星脉", "豪华型", 5, "SUV", 1);
 
-# -- 马自达初始化
+ -- 马自达初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 68, 0, "马自达", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 68, "马自达", "CX-3", "普通型", 5, "SUV", 1),
@@ -523,12 +523,12 @@ VALUES (uuid_short(), 68, 0, "马自达", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 10, 68, "马自达", "马自达CX-7", "舒适型", 5, "SUV", 1),
 (uuid_short(), 11, 68, "马自达", "睿翼", "舒适型", 5, "三厢", 1);
 
-# -- 美亚初始化
+ -- 美亚初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 69, 0, "美亚", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 69, "美亚", "美亚", "舒适型", 5, "SUV", 1);
 
-# -- 名爵初始化
+ -- 名爵初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 70, 0, "名爵", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 70, "名爵", "名爵MG GT", "普通型", 5, "三厢", 1),
@@ -539,7 +539,7 @@ VALUES (uuid_short(), 70, 0, "名爵", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 6, 70, "名爵", "名爵MGZS", "基础型", 5, "SUV", 1),
 (uuid_short(), 7, 70, "名爵", "锐腾", "普通型", 5, "SUV", 1);
 
-# -- 纳智捷初始化
+ -- 纳智捷初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 71, 0, "纳智捷", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 71, "纳智捷", "U5", "基础型", 5, "SUV", 1),
@@ -550,14 +550,14 @@ VALUES (uuid_short(), 71, 0, "纳智捷", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 6, 71, "纳智捷", "纳智捷锐3", "普通型", 5, "三厢", 1),
 (uuid_short(), 7, 71, "纳智捷", "纳智捷优6", "普通型", 5, "SUV", 1);
 
-# -- 讴歌初始化
+ -- 讴歌初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 72, 0, "讴歌", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 72, "讴歌", "讴歌 TLX-L", "舒适型", 5, "三厢", 1),
 (uuid_short(), 2, 72, "讴歌", "讴歌CDX", "普通型", 5, "SUV", 1),
 (uuid_short(), 3, 72, "讴歌", "讴歌MDX", "豪华型", 5, "SUV", 1);
 
-# -- 奇瑞初始化
+ -- 奇瑞初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 73, 0, "奇瑞", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 73, "奇瑞", "艾瑞泽3", "普通型", 5, "三厢", 1),
@@ -583,7 +583,7 @@ VALUES (uuid_short(), 73, 0, "奇瑞", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 21, 73, "奇瑞", "瑞虎5x", "普通型", 5, "SUV", 1),
 (uuid_short(), 22, 73, "奇瑞", "瑞虎7", "普通型", 5, "SUV", 1);
 
-# -- 启辰初始化
+ -- 启辰初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 74, 0, "启辰", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 74, "启辰", "晨风 BEV", "普通型", 5, "两厢", 1),
@@ -595,12 +595,12 @@ VALUES (uuid_short(), 74, 0, "启辰", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 7, 74, "启辰", "启辰T70", "普通型", 5, "SUV", 1),
 (uuid_short(), 8, 74, "启辰", "启辰T90", "舒适型", 5, "SUV", 1);
 
-# -- 启腾初始化
+ -- 启腾初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 75, 0, "启腾", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 75, "启腾", "启腾EX80", "基础型", 7, "MPV", 1);
 
-# -- 起亚初始化
+ -- 起亚初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 76, 0, "起亚", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 76, "起亚", "KX CROSS", "基础型", 5, "两厢", 1),
@@ -621,7 +621,7 @@ VALUES (uuid_short(), 76, 0, "起亚", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 16, 76, "起亚", "斯汀格", "舒适型", 5, "三厢", 1),
 (uuid_short(), 17, 76, "起亚", "智跑", "舒适型", 5, "SUV", 1);
 
-# -- 日产初始化
+ -- 日产初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 77, 0, "日产", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 77, "日产", "风度NV200", "普通型", 7, "MPV", 1),
@@ -639,7 +639,7 @@ VALUES (uuid_short(), 77, 0, "日产", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 13, 77, "日产", "轩逸", "普通型", 5, "三厢", 1),
 (uuid_short(), 14, 77, "日产", "阳光", "基础型", 5, "三厢", 1);
 
-# -- 荣威初始化
+ -- 荣威初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 78, 0, "荣威", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 78, "荣威", "RX3", "普通型", 5, "SUV", 1),
@@ -658,7 +658,7 @@ VALUES (uuid_short(), 78, 0, "荣威", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 14, 78, "荣威", "荣威RX5EV BEV", "普通型", 5, "SUV", 1),
 (uuid_short(), 15, 78, "荣威", "荣威W5", "普通型", 5, "SUV", 1);
 
-# -- 三菱初始化
+ -- 三菱初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 79, 0, "三菱", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 79, "三菱", "劲炫", "普通型", 5, "SUV", 1),
@@ -667,12 +667,12 @@ VALUES (uuid_short(), 79, 0, "三菱", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 4, 79, "三菱", "帕杰罗", "舒适型", 5, "SUV", 1),
 (uuid_short(), 5, 79, "三菱", "帕杰罗劲畅", "舒适型", 5, "SUV", 1);
 
-# -- 森雅初始化
+ -- 森雅初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 80, 0, "森雅", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 80, "森雅", "森雅R7", "基础型", 5, "SUV", 1);
 
-# -- 绅宝初始化
+ -- 绅宝初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 81, 0, "绅宝", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 81, "绅宝", "绅宝 BEV", "舒适型", 5, "三厢", 1),
@@ -688,7 +688,7 @@ VALUES (uuid_short(), 81, 0, "绅宝", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 11, 81, "绅宝", "绅宝X55", "普通型", 5, "SUV", 1),
 (uuid_short(), 12, 81, "绅宝", "绅宝X65", "普通型", 5, "SUV", 1);
 
-# -- 斯巴鲁初始化
+ -- 斯巴鲁初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 82, 0, "斯巴鲁", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 82, "斯巴鲁", "傲虎", "舒适型", 5, "SUV", 1),
@@ -696,7 +696,7 @@ VALUES (uuid_short(), 82, 0, "斯巴鲁", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 3, 82, "斯巴鲁", "森林人", "舒适型", 5, "SUV", 1),
 (uuid_short(), 4, 82, "斯巴鲁", "斯巴鲁XV", "舒适型", 5, "SUV", 1);
 
-# -- 斯柯达初始化
+ -- 斯柯达初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 83, 0, "斯柯达", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 83, "斯柯达", "晶锐", "基础型", 5, "两厢", 1),
@@ -709,24 +709,24 @@ VALUES (uuid_short(), 83, 0, "斯柯达", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 8, 83, "斯柯达", "昕锐", "普通型", 5, "三厢", 1),
 (uuid_short(), 9, 83, "斯柯达", "野帝", "舒适型", 5, "SUV", 1);
 
-# -- 斯威初始化
+ -- 斯威初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 84, 0, "斯威", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 84, "斯威", "斯威X3", "普通型", 5, "SUV", 1),
 (uuid_short(), 2, 84, "斯威", "斯威X7", "舒适型", 5, "SUV", 1);
 
-# -- 特斯拉初始化
+ -- 特斯拉初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 85, 0, "特斯拉", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 85, "特斯拉", "MODEL S", "豪华型", 5, "三厢", 1),
 (uuid_short(), 2, 85, "特斯拉", "MODEL X", "豪华型", 5, "SUV", 1);
 
-# -- 腾势初始化
+ -- 腾势初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 86, 0, "腾势", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 86, "腾势", "腾势 BEV", "舒适型", 5, "三厢", 1);
 
-# -- 威旺初始化
+ -- 威旺初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 87, 0, "威旺", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 87, "威旺", "威旺007", "普通型", 5, "SUV", 1),
@@ -735,18 +735,18 @@ VALUES (uuid_short(), 87, 0, "威旺", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 4, 87, "威旺", "威旺M50F", "普通型", 7, "MPV", 1),
 (uuid_short(), 5, 87, "威旺", "威旺S50", "普通型", 5, "SUV", 1);
 
-# -- 威志初始化
+ -- 威志初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 88, 0, "威志", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 88, "威志", "威志V2", "基础型", 5, "两厢", 1),
 (uuid_short(), 2, 88, "威志", "威志V5", "基础型", 5, "三厢", 1);
 
-# -- 蔚来初始化
+ -- 蔚来初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 89, 0, "蔚来", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 89, "蔚来", "ES8", "舒适型", 5, "SUV", 1);
 
-# -- 沃尔沃初始化
+ -- 沃尔沃初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 90, 0, "沃尔沃", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 90, "沃尔沃", "沃尔沃S60L", "舒适型", 5, "三厢", 1),
@@ -759,7 +759,7 @@ VALUES (uuid_short(), 90, 0, "沃尔沃", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 8, 90, "沃尔沃", "沃尔沃XC60", "豪华型", 5, "SUV", 1),
 (uuid_short(), 9, 90, "沃尔沃", "沃尔沃XC90", "豪华型", 5, "SUV", 1);
 
-# -- 五菱初始化
+ -- 五菱初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 91, 0, "五菱", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 91, "五菱", "五菱宏光S", "基础型", 7, "MPV", 1),
@@ -767,13 +767,13 @@ VALUES (uuid_short(), 91, 0, "五菱", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 3, 91, "五菱", "五菱宏光S3", "普通型", 5, "SUV", 1),
 (uuid_short(), 4, 91, "五菱", "五菱征程", "舒适型", 7, "MPV", 1);
 
-# -- 夏利初始化
+ -- 夏利初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 92, 0, "夏利", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 92, "夏利", "夏利N5", "基础型", 5, "三厢", 1),
 (uuid_short(), 2, 92, "夏利", "夏利N7", "基础型", 5, "两厢", 1);
 
-# -- 现代初始化
+ -- 现代初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 93, 0, "现代", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 93, "现代", "朗动", "普通型", 5, "三厢", 1),
@@ -793,7 +793,7 @@ VALUES (uuid_short(), 93, 0, "现代", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 15, 93, "现代", "悦纳", "普通型", 5, "三厢", 1),
 (uuid_short(), 16, 93, "现代", "悦纳RV", "普通型", 5, "两厢", 1);
 
-# -- 雪佛兰初始化
+ -- 雪佛兰初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 94, 0, "雪佛兰", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 94, "雪佛兰", "爱唯欧", "基础型", 5, "三厢", 1),
@@ -815,7 +815,7 @@ VALUES (uuid_short(), 94, 0, "雪佛兰", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 17, 94, "雪佛兰", "雪佛兰Spark", "基础型", 5, "两厢", 1),
 (uuid_short(), 18, 94, "雪佛兰", "雪佛兰探界者", "舒适型", 5, "SUV", 1);
 
-# -- 雪铁龙初始化
+ -- 雪铁龙初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 95, 0, "雪铁龙", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 95, "雪铁龙", "C4世嘉", "普通型", 5, "三厢", 1),
@@ -827,7 +827,7 @@ VALUES (uuid_short(), 95, 0, "雪铁龙", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 7, 95, "雪铁龙", "世嘉", "普通型", 5, "三厢", 1),
 (uuid_short(), 8, 95, "雪铁龙", "天逸", "普通型", 5, "SUV", 1);
 
-# -- 野马初始化
+ -- 野马初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 96, 0, "野马", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 96, "野马", "EC30", "普通型", 7, "MPV", 1),
@@ -837,7 +837,7 @@ VALUES (uuid_short(), 96, 0, "野马", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 5, 96, "野马", "野马E70 BEV", "普通型", 5, "SUV", 1),
 (uuid_short(), 6, 96, "野马", "野马T80", "舒适型", 5, "SUV", 1);
 
-# -- 英菲尼迪初始化
+ -- 英菲尼迪初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 97, 0, "英菲尼迪", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 97, "英菲尼迪", "英菲尼迪ESQ", "豪华型", 5, "SUV", 1),
@@ -849,7 +849,7 @@ VALUES (uuid_short(), 97, 0, "英菲尼迪", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 7, 97, "英菲尼迪", "英菲尼迪QX70", "豪华型", 5, "SUV", 1),
 (uuid_short(), 8, 97, "英菲尼迪", "英菲尼迪QX80", "豪华型", 5, "SUV", 1);
 
-# -- 英致初始化
+ -- 英致初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 98, 0, "英致", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 98, "英致", "英致727", "基础型", 7, "MPV", 1),
@@ -857,34 +857,34 @@ VALUES (uuid_short(), 98, 0, "英致", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 3, 98, "英致", "英致G3", "基础型", 5, "SUV", 1),
 (uuid_short(), 4, 98, "英致", "英致G5", "普通型", 5, "SUV", 1);
 
-# -- 永源初始化
+ -- 永源初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 99, 0, "永源", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 99, "永源", "永源A380", "基础型", 5, "SUV", 1);
 
-# -- 驭胜初始化
+ -- 驭胜初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 100, 0, "驭胜", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 100, "驭胜", "驭胜S330", "普通型", 5, "SUV", 1),
 (uuid_short(), 2, 100, "驭胜", "驭胜S350", "舒适型", 5, "SUV", 1);
 
-# -- 御捷初始化
+ -- 御捷初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 101, 0, "御捷", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 101, "御捷", "E驰", "基础型", 5, "两厢", 1),
 (uuid_short(), 2, 101, "御捷", "E行", "基础型", 5, "两厢", 1);
 
-# -- 裕路初始化
+ -- 裕路初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 102, 0, "裕路", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 102, "裕路", "裕路EV2", "基础型", 5, "两厢", 1);
 
-# -- 云度初始化
+ -- 云度初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 103, 0, "云度", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 103, "云度", "云度π1", "基础型", 5, "SUV", 1);
 
-# -- 长安初始化
+ -- 长安初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 104, 0, "长安", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 104, "长安", "CS15 EV", "基础型", 5, "SUV", 1),
@@ -915,18 +915,18 @@ VALUES (uuid_short(), 104, 0, "长安", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 26, 104, "长安", "长安CX70", "普通型", 5, "SUV", 1),
 (uuid_short(), 27, 104, "长安", "致尚XT", "普通型", 5, "两厢", 1);
 
-# -- 长城初始化
+ -- 长城初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 105, 0, "长城", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 105, "长城", "长城C30", "普通型", 5, "三厢", 1),
 (uuid_short(), 2, 105, "长城", "长城C50", "普通型", 5, "三厢", 1);
 
-# -- 知豆初始化
+ -- 知豆初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 106, 0, "知豆", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 106, "知豆", "知豆D1 BEV", "基础型", 5, "两厢", 1);
 
-# -- 中华初始化
+ -- 中华初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 107, 0, "中华", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 107, "中华", "骏捷", "普通型", 5, "三厢", 1),
@@ -944,7 +944,7 @@ VALUES (uuid_short(), 107, 0, "中华", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 13, 107, "中华", "中华V5", "普通型", 5, "SUV", 1),
 (uuid_short(), 14, 107, "中华", "尊驰", "舒适型", 5, "三厢", 1);
 
-# -- 众泰初始化
+ -- 众泰初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 108, 0, "众泰", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 108, "众泰", "T300", "基础型", 5, "SUV", 1),
@@ -964,18 +964,18 @@ VALUES (uuid_short(), 108, 0, "众泰", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 15, 108, "众泰", "众泰云100 BEV", "基础型", 5, "两厢", 1),
 (uuid_short(), 16, 108, "众泰", "众泰芝麻E30 BEV", "基础型", 5, "两厢", 1);
 
-# -- ARCFOX初始化
+ -- ARCFOX初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 109, 0, "ARCFOX", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 109, "ARCFOX", "LITE", "基础型", 5, "两厢", 1);
 
-# -- Jeep初始化
+ -- Jeep初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 110, 0, "Jeep", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 110, "Jeep", "大切诺基(进口)", "豪华型", 5, "SUV", 1),
 (uuid_short(), 2, 110, "Jeep", "牧马人", "豪华型", 5, "SUV", 1);
 
-# -- MINI初始化
+ -- MINI初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 111, 0, "MINI", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 111, "MINI", "MINI", "豪华型", 5, "两厢", 1),
@@ -984,13 +984,13 @@ VALUES (uuid_short(), 111, 0, "MINI", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 4, 111, "MINI", "MINI JCW", "豪华型", 5, "两厢", 1),
 (uuid_short(), 5, 111, "MINI", "MINI JCW COUNTRYMAN", "豪华型", 5, "SUV", 1);
 
-# -- SMART初始化
+ -- SMART初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 112, 0, "SMART", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 112, "SMART", "smart forfour", "豪华型", 5, "两厢", 1),
 (uuid_short(), 2, 112, "SMART", "smart fortwo", "豪华型", 5, "两厢", 1);
 
-# -- WEY初始化
+ -- WEY初始化
 INSERT INTO cardict (dictId, orderNum, parentId, brand, typeName, rank, seatNum, boxType,status)
 VALUES (uuid_short(), 113, 0, "WEY", NULL, NULL, NULL, NULL,1),
 (uuid_short(), 1, 113, "WEY", "VV5s", "舒适型", 5, "SUV", 1),
